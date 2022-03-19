@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: zuul-api-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+server:
+  port: 8091
+
+#符合  /api-a/**  的路由将被转发到  feign-product-center  服务去
+#比如 网关服务：  http://localhost:8091/api-a/selectProductInfoById/1，会被转发到 http://localhost:8082/selectProductInfoById/1
+zuul:
+  routes:
+    api-a:
+      path: /api-a/**
+      serviceId: feign-product-center
+    api-b:   # url 模式，feign-order-center   selectOrderInfoById
+      path: /api-b/**
+      url: http://localhost:8088/
+

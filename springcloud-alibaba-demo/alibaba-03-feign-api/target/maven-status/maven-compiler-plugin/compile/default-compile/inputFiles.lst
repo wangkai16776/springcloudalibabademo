@@ -1,0 +1,6 @@
+D:\java\software\ideaworkspace\wkdemo\springcloud-alibaba-demo\alibaba-03-feign-api\src\main\java\com\wk\handler\ProductCenterFeignApiWithSentinelFallback.java
+D:\java\software\ideaworkspace\wkdemo\springcloud-alibaba-demo\alibaba-03-feign-api\src\main\java\com\wk\config\ProductCenterFeignConfig.java
+D:\java\software\ideaworkspace\wkdemo\springcloud-alibaba-demo\alibaba-03-feign-api\src\main\java\com\wk\handler\TulingRequestInterceptor.java
+D:\java\software\ideaworkspace\wkdemo\springcloud-alibaba-demo\alibaba-03-feign-api\src\main\java\com\wk\feignapi\sentinel\ProductCenterFeignApiWithSentinel.java
+D:\java\software\ideaworkspace\wkdemo\springcloud-alibaba-demo\alibaba-03-feign-api\src\main\java\com\wk\handler\ProductCenterFeignApiWithSentielFallbackFactory.java
+D:\java\software\ideaworkspace\wkdemo\springcloud-alibaba-demo\alibaba-03-feign-api\src\main\java\com\wk\feignapi\productcenter\ProductCenterFeignApi.java

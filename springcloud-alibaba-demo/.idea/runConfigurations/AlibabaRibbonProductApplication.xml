@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="AlibabaRibbonProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+    <module name="alibaba-02-ribbon-product" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.wk.AlibabaRibbonProductApplication" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <method />
+  </configuration>
+</component>

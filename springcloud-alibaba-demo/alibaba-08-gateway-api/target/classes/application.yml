@@ -1,0 +1,29 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    nacos:
+    #gateway工程注册到nacos上的地址
+      discovery:
+        server-addr: localhost:8848
+    gateway:
+      discovery:
+        locator:
+        #开启gateway从nacos上获取服务列表
+          enabled: false     # 是否开启路径显示微服务名称 一般设为false
+      enabled: true   #是否开启网关
+  profiles:
+    active: filter-head
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+
+
+

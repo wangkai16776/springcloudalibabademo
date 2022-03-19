@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-02-ribbon-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-02-ribbon-product" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-03-feign-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-03-feign-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-03-feign-product" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-08-gateway-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-08-gateway-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-08-gateway-product" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-consumers" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-zuul-api" charset="UTF-8" />
+  </component>
+</project>

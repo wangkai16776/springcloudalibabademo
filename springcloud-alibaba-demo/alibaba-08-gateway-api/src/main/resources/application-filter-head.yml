@@ -1,0 +1,21 @@
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#       - id: filter-head #id必须要唯一
+#         uri: lb://product-center
+#         predicates:
+#           - Path=/**
+#         filters:
+#                ‐ AddResponseHeader=X‐Response‐Foo, Bar
+
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: add_request_header_route
+        uri: lb://product-center
+        predicates:
+          - Path=/**
+        filters:
+          - AddResponseHeader=X-Request-Foo, Bar

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="alibaba-02-ribbon-order" />
+        <module name="alibaba-02-ribbon-product" />
+        <module name="alibaba-03-feign-api" />
+        <module name="alibaba-03-feign-order" />
+        <module name="alibaba-03-feign-product" />
+        <module name="alibaba-08-gateway-api" />
+        <module name="alibaba-08-gateway-order" />
+        <module name="alibaba-08-gateway-product" />
+        <module name="alibaba-common" />
+        <module name="alibaba-dao" />
+        <module name="eureka-consumers" />
+        <module name="eureka-provider" />
+        <module name="eureka-server" />
+        <module name="spring-cloud-config-server" />
+        <module name="spring-cloud-zuul-api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
